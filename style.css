@@ -64,3 +64,27 @@ a {
 }
 
 /* hero section start */
+
+/* random info section start */
+
+.random-info-heading {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.random-info-child {
+  width: 150px;
+  text-align: center;
+}
+
+.random-info-child img {
+  width: 150px;
+  border-radius: 8px;
+}
+.random-info-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+}
