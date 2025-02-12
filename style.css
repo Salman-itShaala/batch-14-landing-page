@@ -15,8 +15,7 @@ a {
   display: flex;
   justify-content: space-around;
   background-color: #1f2937;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 .header-right {
   display: flex;
@@ -29,8 +28,7 @@ a {
   color: white;
   display: flex;
   justify-content: space-evenly;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .hero-left {
@@ -87,4 +85,48 @@ a {
   justify-content: center;
   gap: 40px;
   padding: 20px 0;
+}
+
+/* thor section start */
+.thor-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9c9c9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.thor-section-child {
+  width: 40vw;
+}
+.thor {
+  text-align: end;
+}
+
+/* thor section end */
+
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+.cta-child {
+  background-color: #3882f6;
+  height: 100px;
+  width: 50vw;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  color: white;
+}
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
